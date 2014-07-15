@@ -1,0 +1,20 @@
+# Vim Configuration
+
+# vim-config created b Derek Wyatt was uased as a base.
+# https://github.com/derekwyatt/vim-config
+
+# As I just stared learning Vim, list of bundles used by Derek looks overwhelming to me. So I removed all of of them except vim-scala. And will add some of them back in the fuure.
+
+# Also I have added gvimrc separate config for gVim.
+
+To install it, do the following:
+
+* Wipe out your `~/.vimrc` file and `~/.vim` directory (back up if you wish)
+* `git clone https://github.com/dimaKudr/vim-configs.git ~/.vim`
+* `cd ~/.vim/bundle && ./get`
+* `ln ~/.vim/vimrc ~/.vimrc`
+* `ln ~/.vim/gvimrc ~/.gvimrc`
+* Start Vim
+
+To update bundles (if necessary) 
+* `cd ~/.vim && ./update`
