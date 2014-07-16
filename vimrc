@@ -1,16 +1,28 @@
 "-----------------------------------------------------------------------------
 " Global Stuff
 "-----------------------------------------------------------------------------
-
 " Get pathogen up and running
 filetype off 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" Line numbers
+set rnu
+au InsertEnter * :set nu
+au InsertLeave * :set rnu
+au FocusLost * :set nu
+au FocusGained * :set rnu
+
+" Airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
 " Set filetype stuff to on
 filetype on
 filetype plugin on
 filetype indent on
+
+colorscheme ir_black
 
 " Tabstops are 2 spaces
 set tabstop=2

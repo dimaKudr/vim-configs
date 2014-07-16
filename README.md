@@ -17,3 +17,5 @@ To install it, do the following:
 
 To update bundles (if necessary):
 * `cd ~/.vim && ./update`
+
+Note: Patched fonts will be installed for Airline. https://github.com/Lokaltog/powerline-fonts
