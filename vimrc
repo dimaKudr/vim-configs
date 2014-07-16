@@ -16,6 +16,8 @@ au FocusGained * :set rnu
 " Airline
 set laststatus=2
 let g:airline_powerline_fonts = 1
+let g:bufferline_echo = 0
+set noshowmode
 
 " Set filetype stuff to on
 filetype on
