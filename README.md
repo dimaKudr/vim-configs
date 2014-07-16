@@ -5,6 +5,10 @@ https://github.com/derekwyatt/vim-config
 
 As I just started learning Vim, list of bundles used by Derek looks overwhelming to me. So I removed all of them except vim-scala. And will add some of them back in the future.
 
+Included plugins:
+* vim-airline (including patched fonts https://github.com/Lokaltog/powerline-fonts) 
+* vim-scala
+
 Also I have added gvimrc separate config for gVim.
 
 To install it, do the following:
@@ -18,4 +22,8 @@ To install it, do the following:
 To update bundles (if necessary):
 * `cd ~/.vim && ./update`
 
-Note: Patched fonts will be installed for Airline. https://github.com/Lokaltog/powerline-fonts
+Note: Add to .bashrc following lines to enable 256 colors support in Terminal.
+`if [ -n "$DISPLAY" -a "$TERM" == "xterm" ]; then
+    export TERM=xterm-256color
+fi`
+

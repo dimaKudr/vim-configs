@@ -19,12 +19,13 @@ let g:airline_powerline_fonts = 1
 let g:bufferline_echo = 0
 set noshowmode
 
+set t_Co=256
+colorscheme xoria256
+
 " Set filetype stuff to on
 filetype on
 filetype plugin on
 filetype indent on
-
-colorscheme ir_black
 
 " Tabstops are 2 spaces
 set tabstop=2
