@@ -17,7 +17,9 @@ To install it, do the following:
 * `cd ~/.vim/bundle && ./get`
 * `ln ~/.vim/vimrc ~/.vimrc`
 * `ln ~/.vim/gvimrc ~/.gvimrc`
-*  if you have ~/.gtkrc-2.0 file, hen add there content of just clonned ~/.vim/gtkrc-2.0. Otherwise configure a link `ln ~/.vim/gtkrc-2.0 ~/.gtkrc-2.0. This will rid off right and bottom gray bordrs in gVim fullscreen mode.
+*  if you have ~/.gtkrc-2.0 file, hen add there content of just clonned ~/.vim/gtkrc-2.0.
+   Otherwise configure a link `ln ~/.vim/gtkrc-2.0 ~/.gtkrc-2.0`.
+   This will rid off right and bottom gray bordrs in gVim fullscreen mode.
 * start Vim
 
 To update bundles (if necessary):
