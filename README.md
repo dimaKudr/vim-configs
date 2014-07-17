@@ -6,7 +6,7 @@ https://github.com/derekwyatt/vim-config
 As I just started learning Vim, list of bundles used by Derek looks overwhelming to me. So I removed all of them except vim-scala. And will add some of them back in the future.
 
 Included plugins:
-* vim-airline (including patched fonts https://github.com/Lokaltog/powerline-fonts) 
+* vim-airline (including patched fonts https://github.com/Lokaltog/powerline-fonts)
 * vim-scala
 
 Also I have added gvimrc separate config for gVim.
@@ -17,6 +17,7 @@ To install it, do the following:
 * `cd ~/.vim/bundle && ./get`
 * `ln ~/.vim/vimrc ~/.vimrc`
 * `ln ~/.vim/gvimrc ~/.gvimrc`
+*  if you have ~/.gtkrc-2.0 file, hen add there content of just clonned ~/.vim/gtkrc-2.0. Otherwise configure a link `ln ~/.vim/gtkrc-2.0 ~/.gtkrc-2.0. This will rid off right and bottom gray bordrs in gVim fullscreen mode.
 * start Vim
 
 To update bundles (if necessary):
