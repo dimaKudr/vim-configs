@@ -26,7 +26,9 @@ To update bundles (if necessary):
 * `cd ~/.vim && ./update`
 
 Note: Add to .bashrc following lines to enable 256 colors support in Terminal.
-`if [ -n "$DISPLAY" -a "$TERM" == "xterm" ]; then
+```
+if [ -n "$DISPLAY" -a "$TERM" == "xterm" ]; then
     export TERM=xterm-256color
-fi`
+fi
+```
 
