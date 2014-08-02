@@ -8,6 +8,7 @@ As I just started learning Vim, list of bundles used by Derek looks overwhelming
 Included plugins:
 * vim-airline (including patched fonts https://github.com/Lokaltog/powerline-fonts)
 * vim-scala
+* vim-gitgutter
 
 Also I have added gvimrc separate config for gVim.
 
