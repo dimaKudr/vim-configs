@@ -94,7 +94,8 @@ set noswapfile
 "set paste
 "set pastetoggle=<F2>
 
-set showmatch " blinks matched open bracket on adding the closing one
+" blinks matched open bracket on adding the closing one
+"set showmatch
 
 set browsedir=current
 set title " display buffer name at terminal tile

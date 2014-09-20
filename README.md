@@ -1,12 +1,12 @@
 # Vim Configuration
 
-vim-config created by Derek Wyatt was used as a base.
-https://github.com/derekwyatt/vim-config
+[vim-config](https://github.com/derekwyatt/vim-config) created by Derek Wyatt was used as a base.
 
 As I just started learning Vim, list of bundles used by Derek looks overwhelming to me. So I removed all of them except vim-scala. And will add some of them back in the future.
 
 Included plugins:
-* vim-airline (including patched fonts https://github.com/Lokaltog/powerline-fonts)
+
+* vim-airline. How to: [install patched fonts](http://dimakudr.github.io/vim/2014/07/16/Vim-Airline-fonts/)
 * vim-scala
 * vim-gitgutter
 
